@@ -1,0 +1,200 @@
+/* =========================================================
+   SegmentIQ AI - Professional Dark Theme
+   ========================================================= */
+
+
+/* Main application */
+
+.stApp {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+
+/* Main content */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+/* Headings */
+
+h1, h2, h3 {
+    color: #f8fafc !important;
+    font-weight: 700 !important;
+}
+
+
+/* Normal text */
+
+p, li, label {
+    color: #cbd5e1 !important;
+}
+
+
+/* Subtitle / description text */
+
+.stMarkdown p {
+    color: #cbd5e1 !important;
+}
+
+
+/* Metric cards */
+
+[data-testid="stMetric"] {
+    background: #172033;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Metric label */
+
+[data-testid="stMetricLabel"] {
+    color: #94a3b8 !important;
+}
+
+
+/* Metric value */
+
+[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+}
+
+
+/* Text input */
+
+div[data-baseweb="input"] {
+    background-color: #172033 !important;
+    border: 1px solid #475569 !important;
+    border-radius: 10px !important;
+}
+
+
+/* Text inside input */
+
+div[data-baseweb="input"] input {
+    color: #ffffff !important;
+    background-color: transparent !important;
+}
+
+
+/* Placeholder */
+
+div[data-baseweb="input"] input::placeholder {
+    color: #94a3b8 !important;
+}
+
+
+/* Select box */
+
+div[data-baseweb="select"] > div {
+    background-color: #172033 !important;
+    border: 1px solid #475569 !important;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+}
+
+
+/* Selected text in dropdown */
+
+div[data-baseweb="select"] span {
+    color: #ffffff !important;
+}
+
+
+/* Dropdown menu */
+
+div[role="listbox"] {
+    background-color: #172033 !important;
+}
+
+
+/* Dropdown options */
+
+div[role="option"] {
+    color: #f8fafc !important;
+}
+
+
+/* Info boxes */
+
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+
+/* Dataframe */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #334155;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/* Buttons */
+
+.stButton > button {
+    background-color: #172033;
+    color: #f8fafc;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* Button hover */
+
+.stButton > button:hover {
+    border-color: #64748b;
+    color: #ffffff;
+}
+
+
+/* Divider */
+
+hr {
+    border-color: #334155 !important;
+}
+
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background-color: #111827 !important;
+    border-right: 1px solid #334155;
+}
+
+
+/* Sidebar text */
+
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span {
+    color: #e2e8f0 !important;
+}
+
+
+/* Sidebar navigation */
+
+[data-testid="stSidebarNav"] {
+    padding-top: 1rem;
+}
+
+
+/* Hide Streamlit footer */
+
+footer {
+    visibility: hidden;
+}
+
+
+/* Hide Streamlit menu */
+
+#MainMenu {
+    visibility: hidden;
+}
